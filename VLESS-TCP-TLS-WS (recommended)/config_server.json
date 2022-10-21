@@ -9,7 +9,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "", // 填写你的 UUID
+                        "id": "49506a0c-533f-4696-b865-e32402d54e83", // 填写你的 UUID
                         "level": 0,
                         "email": "love@example.com"
                     }
@@ -35,8 +35,8 @@
                     ],
                     "certificates": [
                         {
-                            "certificateFile": "/path/to/fullchain.crt", // 换成你的证书，绝对路径
-                            "keyFile": "/path/to/private.key" // 换成你的私钥，绝对路径
+                            "certificateFile": "/etc/letsencrypt/live/www.mc2e.top/fullchain.pem", // 换成你的证书，绝对路径
+                            "keyFile": "/etc/letsencrypt/live/www.mc2e.top/privkey.pem" // 换成你的私钥，绝对路径
                         }
                     ]
                 }
@@ -49,7 +49,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "", // 填写你的 UUID
+                        "id": "49506a0c-533f-4696-b865-e32402d54e83", // 填写你的 UUID
                         "level": 0,
                         "email": "love@example.com"
                     }
