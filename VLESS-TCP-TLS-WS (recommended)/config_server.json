@@ -70,5 +70,20 @@
         {
             "protocol": "freedom"
         }
-    ]
+    ],
+    "routing": {
+"domainStrategy": "IPIfNonMatch",
+"rules": [
+{
+"type": "field",
+"domain": ["geosite:category-ads-all","geosite:cn"],
+"outboundTag": "block"
+},
+{
+"type": "field",
+"outboundTag": "block",
+"ip": ["geoip:cn"]
+}
+]
+}
 }
