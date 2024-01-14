@@ -9,7 +9,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "8f25e330-53a4-4e84-adbd-fbe51c7279db", // 填写你的 UUID
+                        "id": "f25e330-53a4-4e84-adbd-fbe51c7279db", // 填写你的 UUID
                         "level": 0,
                         "email": "love@example.com"
                     }
@@ -35,7 +35,7 @@
                     ],
                     "certificates": [
                         {
-                            "certificateFile": "/etc/letsencrypt/live/www.myc2.top/fullchain.pem", // 换成你的证书，绝对路径
+                            "certificateFile": "/etc/letsencrypt/live/www.myc2.top/cert.pem", // 换成你的证书，绝对路径
                             "keyFile": "/etc/letsencrypt/live/www.myc2.top/privkey.pem" // 换成你的私钥，绝对路径
                         }
                     ]
@@ -49,7 +49,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "8f25e330-53a4-4e84-adbd-fbe51c7279db", // 填写你的 UUID
+                        "id": "f25e330-53a4-4e84-adbd-fbe51c7279db", // 填写你的 UUID
                         "level": 0,
                         "email": "love@example.com"
                     }
