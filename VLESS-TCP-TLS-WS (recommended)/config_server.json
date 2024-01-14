@@ -9,7 +9,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "f25e330-53a4-4e84-adbd-fbe51c7279db", // 填写你的 UUID
+                        "id": "8f25e330-53a4-4e84-adbd-fbe51c7279db", // 填写你的 UUID
                         "level": 0,
                         "email": "love@example.com"
                     }
@@ -20,7 +20,7 @@
                         "dest": 80
                     },
                     {
-                        "path": "/1ad8f479", // 必须换成自定义的 PATH
+                        "path": "/go", // 必须换成自定义的 PATH
                         "dest": 1234,
                         "xver": 1
                     }
@@ -49,7 +49,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "f25e330-53a4-4e84-adbd-fbe51c7279db", // 填写你的 UUID
+                        "id": "8f25e330-53a4-4e84-adbd-fbe51c7279db", // 填写你的 UUID
                         "level": 0,
                         "email": "love@example.com"
                     }
@@ -61,7 +61,7 @@
                 "security": "none",
                 "wsSettings": {
                     "acceptProxyProtocol": true, // 提醒：若你用 Nginx/Caddy 等反代 WS，需要删掉这行
-                    "path": "/1ad8f479" // 必须换成自定义的 PATH，需要和上面的一致
+                    "path": "/go" // 必须换成自定义的 PATH，需要和上面的一致
                 }
             }
         }
